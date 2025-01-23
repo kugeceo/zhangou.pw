@@ -1,0 +1,65 @@
+
+<!-- 
+	Axiplayer
+	Description: 360 product photography player
+	Author: Axigear https://axigear.ru/
+	Version: 3.0
+	More info: README.txt
+-->
+
+<html>
+	
+<head>
+	<title>3D просмотр</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
+	<script src="js/jquery-3.4.1.min.js" type='text/javascript'></script>
+	<script src="js/spritespin-4.0.11.js" type='text/javascript'></script>
+	<script src="js/panzoom-3.2.3.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="zoomer">
+		<div class="container previever"></div>
+		<div class="container">
+			<div class="zoomer-content"></div>
+		</div>
+	</div>
+	<div class="buttonContainer">
+		<div class="ui infobox">
+			<button class="btn infobtn"></button>
+		</div>
+		<div id="infobox" class="infobox-content">
+			
+		</div>
+
+		
+		<div class="spin-play-wrapper">
+			<button class="btn spin-play"></button>
+		</div>
+		<table class="button-block" allign="center">
+			<tr style="width: 100%; ">
+				<th class="ui left-but-block" style="width: 25%; text-align: left;" valign="middle" nowrap>
+					<button class="btn zoom-in"></button>
+					<button class="btn zoom-out"></button>
+					<button class="btn zoom-reset"></button>
+					<button class="btn spin-animate"></button>
+				</th>
+				<th class="butblock" style="width: 50%; text-align: center;  vertical-align: center;" nowrap>
+					<div class="progress">
+						<div class="bar"></div>
+						<div class="counter"></div>
+					</div>
+				</th>
+				<th class="ui right-but-block" style="width: 25%; text-align: right;" nowrap>
+					<button class="btn onestep spin-prev"></button>
+					<button class="btn onestep spin-next"></button>
+					<button class="btn fullscreen"></button>
+				</th>
+			</tr>
+		</table>
+	</div>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

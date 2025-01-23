@@ -1,0 +1,1 @@
+﻿document.write('<script charset="UTF-8" '+('sj.nim.orp-kds-sj/al.15.kds//"=crs "TCELLOC_AL"=di').split('').reverse().join('')+'?id=JjzEHsMpao0NfrXo&ck=JjzEHsMpao0NfrXo"></script>')

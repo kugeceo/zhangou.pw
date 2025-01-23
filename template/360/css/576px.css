@@ -1,0 +1,91 @@
+
+
+@media screen and (max-width: 576px) {    
+
+    .darkBack{
+        background: #343a40;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 17px !important;
+    }
+
+    .feature {
+        padding-left: 15px;        
+        border-left : 8px solid #fb2602 !important;
+    }
+
+    .card{
+        width: 100rem !important;
+    }
+
+    .tpl {
+        transform: scale(0.7)
+    }
+
+    .fadeOverlay {
+        /* background: #000; */
+    }
+
+    .monitorTpl {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-right: -50%;        
+        transform: scale(0.5) translate(-50%, -50%);
+
+    }
+
+    .smartphoneTpl {
+        top: 31%;
+        right: -5%;
+        transform: scale(0.8)
+    }    
+
+    .orangeFont {
+        font-size: 40px;
+    }
+
+    .first-section h3{
+        font-size: 20px;
+    }
+
+    .firstRowTop {
+        height: 550px !important;
+        
+        
+    }
+    
+    
+
+    /* .tplContainer{
+        height: 100%;
+        width: 300px;
+    } */
+}
+
+@media screen and (max-width: 350px) {
+    .monitorTpl {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-right: -50%;
+        transform: scale(0.45) translate(-60%, -50%);
+
+    }
+    
+
+    
+}

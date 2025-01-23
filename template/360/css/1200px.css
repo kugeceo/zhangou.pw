@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+    .tpl {
+        transform: scale(0.95)
+    }
+
+    .monitorTpl {
+        top: -9%;
+        right: -15%;
+    }
+
+    .smartphoneTpl {
+        top: 41%;
+        right: 5%;
+        transform: scale(0.8)
+    }
+}

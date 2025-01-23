@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+    .tpl {
+        transform: scale(0.7)
+    }   
+
+
+@media screen and (max-width: 768px) {
+    
+    .darkBack {
+        background: #343a40 !important;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .monitorTpl {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        margin-right: -50%;
+        transform: scale(0.8) translate(-50%, -50%);
+    }
+
+    .smartphoneTpl {
+        top: 31%;
+        right: -5%;
+        transform: scale(0.8)
+    }
+
+    .feature {
+        padding-left: 15px;
+    }
+
+    .card {
+        width: 100rem !important;
+    }   
+
+    .orangeFont{
+        font-size: 50px;
+    }
+}
